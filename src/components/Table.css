@@ -1,0 +1,65 @@
+.container {
+    padding: 40px;
+    text-align: center;
+}
+
+.input{
+    text-align: left;
+    margin: 1%;
+}
+
+.input_label{
+    margin: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: separate;
+    margin: 30px 10px;
+}
+
+.table th,
+.table td {
+    border: 1px solid #000000;
+    padding: 8px;
+}
+
+.table th {
+    background-color: #ffafaf;
+    text-align: center;
+}
+
+.table td {
+    text-align: center;
+}
+
+.btn {
+    padding: 5px 8px;
+    margin: 0 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn.edit {
+    background-color: #2f90ff;
+}
+
+.btn.delete {
+    background-color: #f44336;
+}
+
+.btn.cancel {
+    background-color: #ff7a71d0;
+    color: #000000;
+}
+
+.btn.create {
+    background-color: #0e9b2d;
+    margin-top: 20px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
